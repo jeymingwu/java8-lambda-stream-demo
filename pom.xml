@@ -8,5 +8,6 @@
     <artifactId>java8-lambda-stream-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies></dependencies>
 
 </project>
