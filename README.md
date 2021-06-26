@@ -77,6 +77,14 @@
   
 ### 5. Lambda 表达式与匿名函数
 
+| 区别 | Lambda 表达式 | 匿名内部类 |
+|:---:|:---:|:---:|
+| 无标识性 | 计算结果有可能有唯一标识 | 确保创建一个拥有唯一表示的对象 |
+| 作用域规则 | 无法继承父类 | 可继承父类属性，规则较 Lambda 表达式复杂 |
+| 是否一个完全的类 | 不是 | 是，编译出单独的 class 文件 |
+
+[Lambda 表达式与匿名函数比较 Demo](./src/main/java/com/example/lambda/function/TestLambdaAndInnerClass.java)
+
 ### 6. 函数式接口
 
 ## Lambda 应用
