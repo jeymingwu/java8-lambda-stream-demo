@@ -128,6 +128,12 @@
 
 与 Supplier 接口相反，Consumer 接口用于消费一个数据；
 
+[Consumer 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInConsumer.java)
+
+> 总结：处理对象，加工对象；
+
+参考：[Java 8 | Consumer Interface in Java with Examples](https://www.geeksforgeeks.org/java-8-consumer-interface-in-java-with-examples/)
+
 #### Function<T, R> 接口
 
 #### UnaryOperator 接口
