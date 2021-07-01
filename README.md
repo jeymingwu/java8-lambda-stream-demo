@@ -134,7 +134,13 @@
 
 参考：[Java 8 | Consumer Interface in Java with Examples](https://www.geeksforgeeks.org/java-8-consumer-interface-in-java-with-examples/)
 
-#### Function<T, R> 接口
+#### Function<T, R> 接口 
+
+根据一个类型的数据得到另一个类型的数据，根据输入得到输出；
+
+[Function 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInFunction.java)
+
+> 总结：可指定入参和出参类型；
 
 #### UnaryOperator 接口
 
