@@ -118,9 +118,15 @@
 
 #### Supplier 接口
 
+获取一个泛型参数指定类型的对象数据（产生一个数据），可理解为工厂类创建对象；
 
+[Supplier 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInSupplier.java)
+
+> 总结：创建对象，类似工厂类；
 
 #### Consumer 接口
+
+与 Supplier 接口相反，Consumer 接口用于消费一个数据；
 
 #### Function<T, R> 接口
 
