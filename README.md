@@ -144,6 +144,12 @@
 
 #### UnaryOperator 接口
 
+功能接口，扩展 ```java.util.function.Function``` 接口；UnaryOperator 表示一个操作，接受一个参数并返回与其相同类型的结果；
+
+[UnaryOperator 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInUnaryOperator.java)
+
+> 总结：与 Function 接口差不多，只是入参和出参的类型一致；
+
 #### BinaryOperator 接口
 
 
