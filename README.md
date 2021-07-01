@@ -87,4 +87,46 @@
 
 ### 6. 函数式接口
 
++ 函数式接口：有且只有一个抽象方法，但可有多个非抽象方法的接口，抽象方法可被隐式1转换成 Lambda 表达式；
+    + 函数式接口 ——> Lambda 表达式的类型；
+    + 函数式接口，单一方法的命名并不重要，重要的是**方法签名** 和 Lambda 表达式的类型匹配；
++ 特点：
+  1. 接口有且仅有一个抽象方法；
+  2. 允许定义静态方法；
+  3. 允许定义默认方法；
+  4. 允许 java.lang.Object 中 public 的方法；
+  5. 推介使用 @FunctionInterface 注解；
++ JDK 8 之后新增了一个函数接口包 ```java.util.function``` ，这里面包含了常用的一些函数接口：
+| 接口 | 参数 | 返回类型 | 说明 |
+|:---:|:---:|:---:|:---:|
+| Predicate | T | boolean |	接受一个输入参数 T，返回一个布尔值结果 |
+| Supplier | None | T | 无参数，返回一个结果，结果类型为 T |
+| Consumer | T | void | 代表了接受一个输入参数 T 并且无返回的操作 |
+| Function<T,R> | T | R | 接受一个输入参数 T，返回一个结果 R |
+| UnaryOperator | T | T	| 接受一个参数为类型 T,返回值类型也为 T |
+| BinaryOperator | (T，T) | T | 代表了一个作用于于两个同类型操作符的操作，并且返回了操作符同类型的结果 |
+
+#### Predicate 接口
+
+条件判断并返回一个 Boolean 值，其包含一个抽象方法（test）、常见的三种逻辑关系：与（and）、或（or）、非（negate）的默认方法和 isEqual 方法；
+
+[Predicate 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInPredicate.java)
+
+> 总结：条件判断，类似 if 语句中的判断条件，配合 Lambda 表达式使用更加灵活，使判断条件根据业务情况可增可减；
+
+参考：[Java 8 Predicate类基本使用详解](https://blog.csdn.net/qazzwx/article/details/107864622)
+
+#### Supplier 接口
+
+
+
+#### Consumer 接口
+
+#### Function<T, R> 接口
+
+#### UnaryOperator 接口
+
+#### BinaryOperator 接口
+
+
 ## Lambda 应用
