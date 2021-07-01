@@ -152,5 +152,10 @@
 
 #### BinaryOperator 接口
 
+扩展 ```java.util.function.BiFunction``` 接口；表示两个入参和出参的类型相同；
+
+[BinaryOperator 接口 Demo](./src/main/java/com/example/lambda/function/TestFunctionInBinaryOperator.java)
+
+> 总结：与 BiFunction 接口差不多，只是入参和出参的类型一致；（特性与 UnaryOperator 差不多一致）（与 Function 的差异：两个入参，而 Function 是一个入参）
 
 ## Lambda 应用
